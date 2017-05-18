@@ -893,11 +893,9 @@ pre.editor-colors .search-results .mpe-syntax--marker.current-result .region {
 <pre class="editor-colors lang-c"><div class="line"><span class="mpe-syntax--source mpe-syntax--c"><span class="mpe-syntax--meta mpe-syntax--preprocessor mpe-syntax--include mpe-syntax--c"><span class="mpe-syntax--keyword mpe-syntax--control mpe-syntax--directive mpe-syntax--include mpe-syntax--c"><span class="mpe-syntax--punctuation mpe-syntax--definition mpe-syntax--directive mpe-syntax--c"><span>#</span></span><span>include</span></span><span>&nbsp;</span><span class="mpe-syntax--string mpe-syntax--quoted mpe-syntax--other mpe-syntax--lt-gt mpe-syntax--include mpe-syntax--c"><span class="mpe-syntax--punctuation mpe-syntax--definition mpe-syntax--string mpe-syntax--begin mpe-syntax--c"><span>&lt;</span></span><span>ArduinoJson.h</span><span class="mpe-syntax--punctuation mpe-syntax--definition mpe-syntax--string mpe-syntax--end mpe-syntax--c"><span>&gt;</span></span></span></span></span></div></pre>
 <hr>
 <h3 id="next-well-define-some-variables-well-use-later">Next we'll define some variables we'll use later.</h3>
-<hr>
-<p>For self redo this with &quot;Well need to define a ..... then put the code&quot;</p>
-<hr>
 <p><code>SoftwareSerial ESP8266 (3,2);</code> Makes a software serial, the RX pin is 3 and the TX pin is 2, these are data pins and can be mappen to any datapin by changing the argument.</p>
-<p><code>StaticJsonBuffer&lt;200&gt; jsonBuffer;</code> Makes a Json bufferd well use to parse the json later, please note if you for some reason need to parse json thats bigger then 200 char long change the value to the requierd amount of chars.</p>
+<p><code>StaticJsonBuffer&lt;200&gt; jsonBuffer;</code> Makes a Json bufferd well use to parse the json later, please for
+  if you for some reason need to parse json thats bigger then 200 char long change the value to the requierd amount of chars.</p>
 <p><code>String Ssid = &quot;Båt #1&quot;;</code> This is the SSID (Wifi name) that will showup when we look for and connect to our WIFI.</p>
 <p><code>String Pass = &quot;awesomepass42&quot;</code>This is the password for our WIFI network</p>
 <p><code>String Channel = &quot;5&quot;;</code> This is the <a href="https://www.wikiwand.com/en/List_of_WLAN_channels">channel the WIFI network</a> will be on.</p>
